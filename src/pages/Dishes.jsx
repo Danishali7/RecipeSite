@@ -12,9 +12,8 @@ const Dishes = () => {
     setDish(data.meals);
   };
   useEffect(() => {
-    // getDishes(params.type);
+    getDishes(params.type);
   }, [params.type]);
-  //   console.log(dish);
   return (
     <div className="dishes">
       {dish.map((item) => {

@@ -14,7 +14,7 @@ const Searched = () => {
     setSearchItem(data.meals);
   };
   useEffect(() => {
-    // getSearchedItem(params.search);
+    getSearchedItem(params.search);
   }, [params.search]);
   return (
     <div className="searchedDish dishes">

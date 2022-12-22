@@ -14,7 +14,7 @@ const Recipedetails = () => {
   };
 
   useEffect(() => {
-    // getRecipeDetails(params.id);
+    getRecipeDetails(params.id);
   }, [params.id]);
 
   return (
