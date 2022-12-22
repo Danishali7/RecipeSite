@@ -1,0 +1,5 @@
+searching purpose  :  `https://www.themealdb.com/api/json/v1/1/search.php?s=Cookie`we can this i with searchtext from input field for different meals
+
+meals with categories :https://www.themealdb.com/api/json/v1/1/filter.php?c=Vegetarian we can change with different name
+
+meal details : https://www.themealdb.com/api/json/v1/1/lookup.php?i=52807    here we put id of the meal for details
