@@ -18,6 +18,7 @@ const Searched = () => {
   }, [params.search]);
   return (
     <div className="searchedDish dishes">
+      {/* this is for checking if item is not found during fetch */}
       {searchItem === null ? (
         <Notfound />
       ) : (

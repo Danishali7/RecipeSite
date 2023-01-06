@@ -6,8 +6,9 @@
 }
 .wrapper {
   width: 100%;
-  /* padding: 0.5rem 0rem; */
+  padding: 0rem 0.5rem;
   /* margin-top: 1rem;  */
+  padding-bottom: 3rem;
 }
 .recipeCard {
   height: 24rem;
@@ -122,12 +123,12 @@
 }
 
 .form {
-  background-color: pink;
+  background-color: rgb(48, 48, 48);
   width: 40vw;
   position: relative;
 }
 .form input {
-  width: 100%;
+  width: 85%;
   outline: none;
   background-color: rgb(48, 48, 48);
   color: white;
@@ -296,6 +297,10 @@
   }
 }
 @media screen and (max-width: 827px) {
+  .form {
+    /* background-color: #fff; */
+    width: 80vw;
+  }
   .recipeCard,
   .veggieCard {
     height: 20rem;
@@ -344,6 +349,9 @@
   }
   .category span {
     padding: 0.2rem 0.6rem;
+  }
+  .videoContainer svg {
+    transform: translateY(9rem);
   }
 }
 @media screen and (max-width: 526px) {
